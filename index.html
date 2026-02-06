@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Breach Vector LLC - Premium penetration testing and offensive security consulting for modern enterprises">
+    <meta name="keywords" content="penetration testing, red team, offensive security, security consulting, vulnerability assessment, application security">
+    <meta name="author" content="Breach Vector LLC">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://breachvector.io/">
+    <meta property="og:title" content="Breach Vector LLC | Elite Penetration Testing & Offensive Security">
+    <meta property="og:description" content="Premium penetration testing and offensive security consulting for modern enterprises">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Breach Vector LLC | Elite Penetration Testing">
+    <meta name="twitter:description" content="Premium penetration testing and offensive security consulting for modern enterprises">
+
+    <title>Breach Vector LLC | Elite Penetration Testing & Offensive Security</title>
+
+    <!-- Favicons -->
+    <meta name="theme-color" content="#1a1d23">
+
+    <!-- Font Loading with Performance Optimization -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Breach Vector LLC",
+      "description": "Premium penetration testing and offensive security consulting for modern enterprises",
+      "url": "https://breachvector.io",
+      "email": "info@breachvector.io",
+      "priceRange": "$$$",
+      "serviceType": ["Penetration Testing", "Red Team Operations", "Application Security"]
+    }
+    </script>
+</head>
+<body id="top">
+    <!-- Skip Navigation Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Fixed Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#top" class="nav-logo">Breach<span>Vector</span></a>
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#methodology" class="nav-link">Methodology</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <!-- Background layers -->
+            <div class="hero-gradient"></div>
+            <div class="hero-mesh"></div>
+            <canvas id="hero-canvas" class="hero-nodes"></canvas>
+
+            <!-- SVG Vector Background -->
+            <svg class="vector-bg" viewBox="0 0 1200 800" aria-hidden="true">
+                <defs>
+                    <linearGradient id="vectorGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#00d9ff; stop-opacity:0.15" />
+                        <stop offset="100%" style="stop-color:#00ff88; stop-opacity:0.2" />
+                    </linearGradient>
+                </defs>
+
+                <!-- Breach path with nodes -->
+                <path
+                    class="vector-path"
+                    d="M 50 400 L 300 250 L 550 450 L 800 200 L 1050 400"
+                    stroke="url(#vectorGradient)"
+                    stroke-width="3"
+                    fill="none"
+                    stroke-dasharray="10 5"
+                />
+
+                <!-- Connection nodes -->
+                <circle cx="50" cy="400" r="6" fill="#00d9ff" opacity="0.6" class="vector-node" />
+                <circle cx="300" cy="250" r="6" fill="#00d9ff" opacity="0.6" class="vector-node node-delay-1" />
+                <circle cx="550" cy="450" r="6" fill="#00d9ff" opacity="0.6" class="vector-node node-delay-2" />
+                <circle cx="800" cy="200" r="6" fill="#00ff88" opacity="0.8" class="vector-node node-delay-3" />
+                <circle cx="1050" cy="400" r="8" fill="#00ff88" opacity="1" class="vector-node node-delay-4" />
+            </svg>
+
+            <!-- Hero Content -->
+            <div class="container hero-content">
+                <div class="vector-chevron" aria-hidden="true"></div>
+                <h1 class="hero-title">Offensive Security Validation for the Evolving Attack Surface</h1>
+                <p class="hero-subtitle">Collaborative adversarial testing. Stress-testing your organization's detection and response capabilities.</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Request Assessment</a>
+                    <a href="#methodology" class="btn btn-secondary">Our Methodology</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vector Divider -->
+        <div class="vector-divider" aria-hidden="true"></div>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2 class="section-title">Offensive Security Services</h2>
+                <p class="section-subtitle">Comprehensive attack surface testing across network, application, and physical domains</p>
+
+                <div class="service-grid">
+                    <!-- Network Pentesting Card -->
+                    <article class="service-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Network Pentesting</h3>
+                        <p class="card-description">
+                            Comprehensive assessment of network infrastructure, including external and internal perimeter testing, wireless security audits, and configuration reviews. We identify critical vulnerabilities before attackers exploit them.
+                        </p>
+                        <div class="card-footer">
+                            <a href="#contact" class="card-link">
+                                Learn More <span class="arrow">→</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Red Teaming Card -->
+                    <article class="service-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 16V8C21 6.89543 20.1046 6 19 6H5C3.89543 6 3 6.89543 3 8V16C3 17.1046 3.89543 18 5 18H19C20.1046 18 21 17.1046 21 16Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 12L3 8L12 4L21 8L12 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 12V18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Red Team Operations</h3>
+                        <p class="card-description">
+                            Adversary simulation engagements designed to test detection and response capabilities. Multi-phase campaigns targeting people, processes, and technology using real-world attack techniques and tactics.
+                        </p>
+                        <div class="card-footer">
+                            <a href="#contact" class="card-link">
+                                Learn More <span class="arrow">→</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Application Security Card -->
+                    <article class="service-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="2"/>
+                                <path d="M8 2V6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M16 2V6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M8 10H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M8 14H13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Application Security</h3>
+                        <p class="card-description">
+                            In-depth web and mobile application testing covering OWASP Top 10, business logic flaws, and API security. Source code review and architecture analysis to identify vulnerabilities at every layer of your application stack.
+                        </p>
+                        <div class="card-footer">
+                            <a href="#contact" class="card-link">
+                                Learn More <span class="arrow">→</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-content">
+                        <h2 class="section-title">Elite Offensive Security</h2>
+                        <p class="about-text">
+                            Breach Vector LLC is a premium offensive security consultancy specializing in adversary simulation and penetration testing. Our team consists of seasoned security researchers, former red teamers, and certified offensive security professionals.
+                        </p>
+                        <p class="about-text">
+                            We employ cutting-edge techniques and tools to identify security gaps that traditional vulnerability assessments miss. Every engagement is tailored to your organization's unique threat landscape and business objectives.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat pillar">
+                                <div class="stat-number pillar-title">Precision</div>
+                                <div class="stat-label pillar-description">Targeted testing that minimizes business disruption.</div>
+                            </div>
+                            <div class="stat pillar">
+                                <div class="stat-number pillar-title">Clarity</div>
+                                <div class="stat-label pillar-description">Technical findings translated into actionable executive risk.</div>
+                            </div>
+                            <div class="stat pillar">
+                                <div class="stat-number pillar-title">Integrity</div>
+                                <div class="stat-label pillar-description">Direct collaboration and transparent methodology.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <!-- Decorative geometric pattern -->
+                        <div class="geometric-pattern" aria-hidden="true">
+                            <div class="geo-line"></div>
+                            <div class="geo-line"></div>
+                            <div class="geo-line"></div>
+                            <div class="geo-box"></div>
+                            <div class="geo-box"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Methodology Section -->
+        <section id="methodology" class="methodology-section">
+            <div class="container">
+                <h2 class="section-title">Engagement Methodology</h2>
+                <p class="section-subtitle">Systematic approach to uncovering security weaknesses</p>
+
+                <div class="methodology-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">01</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Reconnaissance</h3>
+                            <p class="timeline-description">Intelligence gathering and attack surface mapping using OSINT and active enumeration techniques.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">02</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Vulnerability Analysis</h3>
+                            <p class="timeline-description">Comprehensive scanning and manual testing to identify exploitable weaknesses across all systems.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">03</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Exploitation</h3>
+                            <p class="timeline-description">Controlled exploitation of vulnerabilities to demonstrate real-world impact and risk severity.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">04</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Reporting</h3>
+                            <p class="timeline-description">Detailed technical findings with actionable remediation guidance and executive risk summary.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <h2 class="section-title">Secure Your Perimeter</h2>
+                    <p class="contact-text">
+                        Ready to test your defenses? Contact us for a confidential consultation about your security testing needs.
+                    </p>
+                    <div class="contact-methods">
+                        <a href="mailto:info@breachvector.io" class="contact-method">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="2"/>
+                                <path d="M3 7L12 13L21 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            <span>info@breachvector.io</span>
+                        </a>
+                        <a href="mailto:info@breachvector.io?subject=Consultation Request" class="contact-method">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 8C16 10.2091 14.2091 12 12 12C9.79086 12 8 10.2091 8 8C8 5.79086 9.79086 4 12 4C14.2091 4 16 5.79086 16 8Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 14C7.58172 14 4 17.5817 4 22H20C20 17.5817 16.4183 14 12 14Z" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            <span>Schedule Consultation</span>
+                        </a>
+                    </div>
+                    <a href="#contact" class="btn btn-primary btn-large">Request Assessment</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="footer-left">
+                <p class="footer-copyright">&copy; <span id="current-year">2024</span> Breach Vector LLC. All rights reserved.</p>
+            </div>
+            <div class="footer-center">
+                <p class="footer-tagline">Secure by Design</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://linkedin.com/company/breachvector" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
